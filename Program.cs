@@ -29,10 +29,10 @@ namespace DIO.Bank
 					case "5":
 						Depositar();
 						break;
+                        
                     case "C":
 						Console.Clear();
 						break;
-
 					default:
 						throw new ArgumentOutOfRangeException();
 				}
